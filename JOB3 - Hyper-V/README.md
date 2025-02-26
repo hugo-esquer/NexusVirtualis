@@ -7,27 +7,27 @@ A partir de l’interface graphique :
 Ouvrez le "Gestionnaire de serveur" sur votre futur hyperviseur, puis cliquez sur le bouton "Gérer" puis "Ajouter des rôles et fonctionnalités".  
 ![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1.png)  
 Passez l'étape "Avant de commencer".  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-1.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-2.png)  
 Conservez le choix "Installation basée sur un rôle ou une fonctionnalité" à l'étape "Type d'installation". Passez l'étape "Sélection du serveur".  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-2.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-3.png)  
 À l'étape "Rôles de serveur", vous devez cocher "Hyper-V" dans la liste. Puis, validez l'installation des fonctionnalités correspondantes aux outils d'administration d'Hyper-V. Autrement dit, ceci va permettre d'ajouter la console "Gestionnaire Hyper-V" ainsi que le module PowerShell pour Hyper-V (ceci ajoute à votre système des commandes PowerShell propre à la configuration d'Hyper-V et des VMs).  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-3.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-4-800x465.png)  
 Poursuivez... Vous allez arriver sur une étape de configuration nommée "Hyper-V", où vous devrez effectuer la configuration de base de votre hyperviseur.  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-4.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-5.png)  
 Le commutateur virtuel (switch virtuel) permet d'assurer la connectivité réseau des machines virtuelles. Sans commutateur virtuel, les machines virtuelles ne peuvent pas être connectées au réseau.  
 L'assistant d'installation vous propose de créer un premier switch virtuel dès maintenant, en sélectionnant la carte réseau détectée sur la machine. Décochez toutes les cases, et cliquez sur "Suivant". Nous verrons par la suite comment configurer le réseau virtuel.  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-5.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-6.png)  
 Ensuite, une étape nommée "Migration" se présente à l'écran. Ceci fait référence à la fonctionnalité d'Hyper-V permettant de migrer des ordinateurs virtuels d'un hyperviseur vers un autre (envoyer ou recevoir).  
   
 Cette fonctionnalité peut être activée, désactivé et configurée à tout moment, décochez l’option pour le moment. Nous y reviendrons plus tard.  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-6.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-Migration.png)  
 Puis, la dernière étape nommée "Emplacements par défaut" s'affiche à l'écran. Il est recommandé de stocker les fichiers relatifs aux machines virtuelles sur un volume dédié et différent de celui du système. Selon les configurations, il peut s'agir d'un volume local ou d'un volume associé à une cible distante (via iSCSI, par exemple).  
 Le répertoire "Virtual Hard Disks" sera utilisé par Hyper-V pour stocker tous les disques virtuels associés aux VMs d'Hyper-V. Ceci correspond aux fichiers avec l'extension VHDX, ou le format plus ancien VHD. Le répertoire pour les fichiers de configuration contiendra le fichier de configuration de la VM au format XML, mais aussi un fichier BIN pour stocker la mémoire d'une VM dans un état sauvegardé, ou encore les fichiers AVHDX (et AVHD) pour les snapshots. Nous verrons par la suite que tout cela est personnalisable.  
 Voici un exemple de configuration où nous utilisons le volume "V:" du serveur pour stocker les données correspondantes à nos machines virtuelles :  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-7.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-8.png)  
 Poursuivez jusqu'à la fin... Lancez l'installation et patientez un instant.  
 Lorsque l'installation est terminée, vous devez redémarrer le serveur pour finaliser l'installation du rôle Hyper-V.  
-![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-8.png)  
+![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-9.png)  
 # Création Debian via l’interface graphique Hyper-V.  
 ![alt text](images/Installer-Hyper-V-Windows-Server-2022-Etape-1-9.png)  
 1 - La liste de tous les serveurs Hyper-V auxquels vous êtes actuellement connectés.  
