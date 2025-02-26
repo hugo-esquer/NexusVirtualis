@@ -71,7 +71,7 @@ Ensuite, vous devez "Spécifier la génération", et choisir entre la générati
 À l'étape "Connecter un disque dur virtuel", vous devez configurer le stockage principal de la VM. Autrement dit, vous devez paramétrer le disque dur virtuel (VHDX) de la VM sur lequel nous viendrons installer le système d'exploitation par la suite.  
 ![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Astuce-emplacement-VHDX.png)  
 La dernière étape se présente à vous : "Options d'installation". Ici, cochez l'option "Installer un système d'exploitation à partir d'un fichier de démarrage" et cliquez sur le bouton "Parcourir..." pour aller chercher l'image ISO d'installation de Debian.  
-![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Etape-5.png)  
+![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Etape-6.png)  
 Lorsque vous arrivez à l'étape "Résumé", cliquez sur "Terminer" pour finaliser la création de l'ordinateur virtuel.  
 
 # Installer le système d’exploitation.  
