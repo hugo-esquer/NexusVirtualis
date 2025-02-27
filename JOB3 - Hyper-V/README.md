@@ -51,7 +51,7 @@ Cliquez sur "OK" pour créer le commutateur virtuel avec les paramètres sélect
 ![alt text](images/image.png)  
 
 
-On va utiliser la Génération 2.  
+On va utiliser la Génération 1.  
 Passons à la création de la machine virtuelle. Ouvrez la console "Gestionnaire Hyper-V", effectuez un clic droit sur le nom du serveur. Sous "Nouveau", choisissez : "Ordinateur virtuel...". Un assistant va s'exécuter.  
 ![alt text](images/Hyper-V-Creer-ordinateur-virtuel-Windows-11.png)  
 Passez la première étape nommée "Avant de commencer" en cliquant sur le bouton "Suivant".  
@@ -62,7 +62,7 @@ Je vous recommande de cocher l'option "Stocker l'ordinateur virtuel à un autre 
 Tout simplement parce que ceci va changer le comportement d'Hyper-V. Sous "V:\Hyper-V\", il va créer un sous-dossier portant le nom de la VM, et dans ce dossier, il créera deux répertoires : "Virtual Hard Disks" et "Virtual Machines". Ainsi, pour chaque VM, nous aurons un répertoire global avec tous les fichiers associés à la VM en question, ce que je trouve beaucoup plus cohérent en termes d'organisation.  
 ![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Astuce-emplacement-VM.png)  
 
-Ensuite, vous devez "Spécifier la génération", et choisir entre la génération 1 et la génération 2. Nous pouvons choisir "Génération 2".  
+Ensuite, vous devez "Spécifier la génération", et choisir entre la génération 1 et la génération 2. Nous pouvons choisir "Génération 1".  
 ![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Etape-3.png)  
 À l'étape suivante, vous devez définir une quantité de mémoire vive (RAM) pour cette machine virtuelle.Indiquez 1024 Mo.  
 ![alt text](images/Hyper-V-Creer-une-VM-Windows-Server-2022-Etape-4.png)  

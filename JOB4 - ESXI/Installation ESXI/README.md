@@ -90,5 +90,5 @@ Nous pouvons enfin accéder à l’interface de gestion ESXi Host Client de notr
  Authentifiez-vous avec le compte root.  
 ![alt text](images/03EI65.png)  
 
- Vous êtes maintenant dans la console ESXi Host Client. Prenez quelques minutes pour la découvrir !  
+ Vous êtes maintenant dans la console ESXi Host Client. 
 ![alt text](images/03EI66.png)  
