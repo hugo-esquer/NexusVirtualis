@@ -24,11 +24,11 @@ Exemples : VMware Workstation, VirtualBox, Microsoft Hyper-V (mode client).
 ## ESXI 8
 Pour télécharger  l’image d’ESXI, vous aurez besoin d’un compte VMWarte Customer Connect. Une fois le compte créer vous pourrez naviguer dans la section vSphère et sélectionner l’ISO VMware vSphère Hypervisor (ESXI ISO) image à la version 8.0.3 P04.
 
-## Hyper_V
-L’image iso d’hyper v est directement disponible sur me site de microsoft.com
+## Hyper-V
+Hyper-V est un rôle a installer depuis un serveur Windows.
 
 ## Proxmox VE
-L’image de Proxmox est disponible a cette adresse https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso
+L’image de Proxmox est disponible a cette adresse https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso.
 
 ## XCP-ng
 Vous pouvez télécharger la dernière version de XCP-ng 8.3 ici https://mirrors.xcp-ng.org/isos/8.3/xcp-ng-8.3.0.iso?https=1.
