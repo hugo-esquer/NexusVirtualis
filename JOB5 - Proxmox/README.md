@@ -14,31 +14,31 @@ Cliquer sur « Options » pour configurer le partitionnement.
 – Sélectionner le « Filesystem » par défaut « ext4 » (ou un autre si besoin).  
 – Définir une taille maximale « maxroot » pour le volume logique qui contiendra le système (Ex : 20 GB). Si aucune valeur n’est définie pour « maxroot », 1/4 du disque sera utilisé (ne pas définir cette valeur entraînerait un gaspillage plus ou moins important selon la taille des disques).  
 – Cliquer sur « Next ».  
-![alt text](images/proxmox_install_lang.webp)
+![alt text](images/proxmox_install_lang.webp)  
 Sélectionner la langue et les autres options de region.  
 Cliquer sur « Next ».  
-![alt text](images/proxmox_install_password_and_mail.webp)
+![alt text](images/proxmox_install_password_and_mail.webp)  
 Renseigner un mot de passe pour l’utilisateur root et l’adresse e-mail de réception pour les alertes.  
 Cliquer sur « Next ».  
-![alt text](images/proxmox_install_network.webp)
+![alt text](images/proxmox_install_network.webp)  
 Sélectionner l’interface réseau.  
 Renseigner le nom de machine et la configuration réseau.  
 Cliquer sur « Next ».  
-![alt text](images/proxmox_install_summary.webp)
+![alt text](images/proxmox_install_summary.webp)  
 Vérifier le résumé et cliquer sur « Install ».  
-![alt text](images/proxmox_install_finish.webp)
+![alt text](images/proxmox_install_finish.webp)  
 Une fois l’installation terminée, le terminal s’affiche.  
 
 L’interface de Proxmox VE est accessible depuis un navigateur web.  
 Il faudra utiliser l’adresse présente sur la page de démarrage.  
 https://AdresseIPProxmoxVe:8006  
-![alt text](images/proxmox_install_finish.webp)
+![alt text](images/proxmox_install_finish.webp)  
 Ce message risque de s’afficher car le certificat n’est pas valide.  
 Cela n’empêche pas le fonctionnement de Proxmox VE.  
 Le message peut être ignoré si vous accédez à Proxmox VE depuis un réseau fiable.  
 
 # Présentation de l’interface
-![alt text](images/proxmox_interface_overview.webp)
+![alt text](images/proxmox_interface_overview.webp)  
 
 L’interface est découpée en 5 régions :  
 
